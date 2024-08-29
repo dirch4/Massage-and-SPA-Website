@@ -1,0 +1,122 @@
+/* foooter */
+
+.class-rowk
+{
+    /* background-color: aliceblue; */
+    margin-top: 50px !important;
+}
+
+.logo-class
+{
+    height: 300px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 30px !important;
+    /* background-color: blue; */
+    /* padding: 20px; */
+
+}
+.logok img
+{
+    display: flex;
+    width: 110%;
+    height: 200px;
+    animation: border_show 2s infinite;
+    background-size: cover;
+    /* background-color: aqua; */
+    background-image: url(/image/bunga.png);
+    /* object-fit: cover; */
+    background: cover;
+
+    /* height: 500px; */
+    align-items: center;
+    /* background-color: blue; */
+    border-radius: 10px;
+    justify-content: center;
+
+  
+}
+
+
+.me
+{
+    /* background-color: blueviolet; */
+    color: #ffffffff;
+    height: 40px;
+    text-align: center;
+}
+
+.icon-ig 
+{
+    /* background-color: rgb(51, 159, 159); */
+    display: flex;
+    /* gap: 10px; */
+    justify-content: center;
+    align-items: center;
+    /* padding: 1px; */
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    
+}
+.icon-ig li a 
+{
+    gap: 10px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    /* color: rgb(92, 157, 181) !important; */
+}
+
+
+
+
+.text-about
+{
+    display: flex;
+    /* width: 50%; */
+    /* padding-top: 20px; */
+    /* height: 500px; */
+    color: #ffffffff;
+    align-items: center;
+    text-align: justify;
+    
+}
+.text-about span
+{
+    color: #ffffffff;
+}
+
+
+
+
+.about h3
+{
+    /* background-color: rgb(49, 122, 142); */
+    text-align: center;
+    color: #ffffffff !important;
+
+}
+.by
+{
+    color: #ffffffff;
+}
+
+@keyframes border_show
+{
+    0%,100%
+    {
+        border: 3px solid transparent;
+    }
+    50%
+    {
+        border: 3px solid var(--primary-color);
+    }
+}
+
+
+

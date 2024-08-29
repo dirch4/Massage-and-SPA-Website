@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+*
+{
+    font-family: "Quicksand";
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    
+}
+body
+{
+    background-color: var(--bg-color) !important;
+    
+
+}
+:root
+{
+    --bg-color:#543310;
+    --cart-color: #382109;
+    --white:#fff;
+    --footer-color:#F8F4E1;
+    --text-color:#DECEBA;
+    --text: #FFFFFF;
+}
+/* navbar */
+
+.container
+{
+    /* background-color: #DECEBA; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+
+}
+
+.header 
+{
+    /* background-color: #e5c629; */
+    width: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+/* admin */
+.admin
+{
+    
+    display: flex !important;
+    /* background-color: #29e5d5 !important; */
+    width: 10px;
+    align-items: center !important;
+    justify-content: center !important;
+}
+.admin h6 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    font-size: 30px;
+}
+.adminImg
+{
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    color: #FFFFFF;
+
+    width: 50px !important;
+    height: 100% !important;
+}
+/* .adminImg a 
+{
+    width: 40px;
+    height: 50px;
+    font-size: 30px;
+} */
+.potoImg
+{
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 200px;
+    height: 30px;
+    /* background-color: #29e5d5; */
+}
+
+/* .header .logo 
+{
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+.logoUtama
+{
+    color: #FFFFFF;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* gap: 1px; */
+}
+.logoUtama img
+{
+    /* background-color: #543310; */
+    color: #FFFFFF;
+    font-weight: 900;
+    width: 150px;
+    height: 70px;
+   
+ 
+}
+
+/* logout */
+.logotKeluar a
+{
+    color: #FFFFFF;
+    text-decoration: none !important;
+}
+
+
+/* logo tengah */
+.logo h1
+{
+    display: flex;
+    justify-content: center;
+    font-size: 31px;
+    font-weight: 900;
+    color: #FFFFFF;
+
+
+}
+.header nav
+{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.header nav a
+{
+   
+
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 25px;
+    text-decoration: none;
+} 
+/* kelas atas 1 */
+.class-atas-1
+{
+    background-color: #382109;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    border-radius: 20px;
+    width: auto;
+    height: 320px !important;
+}
+.biar-1
+{
+    /* background-color: #42e625; */
+    display: flex;
+    gap: 50px !important;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+ 
+.box-kotak-1 img
+{
+    /* background-color: #ee8504; */
+    width: 150%;
+    height: 180%;
+    /* padding-left: 25px !important; */
+
+}
+
+.box-text-1
+{
+    /* background-color: #543310; */
+    width: 100% !important;
+    height: 100% !important;
+    display: flex;
+    align-items: center;
+}
+.box-text-1 span
+{
+    text-align: center;
+    color: #DECEBA;
+    text-align: justify;
+
+}
+
+/* kelas atas 2 */
+.class-atas-2
+{
+    background-color: #382109;
+    display: flex !important;
+    justify-content: center;
+    align-items: center !important;
+    border-radius: 20px;
+    width: auto;
+    height: 320px !important;
+}
+.biar-2
+{
+  /* background-color: #42e625; */
+  display: flex;
+  /* gap: 10px !important; */
+  /* justify-content: space-around; */
+}
+ 
+.box-kotak-2 img
+{
+    /* background-color: #ee8504; */
+    width: 150%;
+    height: 180%;
+
+}
+
+.box-text-2
+{
+    /* background-color: #543310; */
+    width: 100% !important;
+    height: 100% !important;
+    display: flex;
+    align-items: center !important;
+    justify-content: center !important;
+    padding-left: 10px !important;
+}
+.box-text-2 span
+{
+    text-align: center;
+    color: #DECEBA;
+    text-align: justify;
+
+}
+
+/* footerrrr dan contact  */
+
+
+.lebih
+{
+    margin-top: 160px !important;
+}
+
+.hubungi
+{
+    background-color: #F8F4E1 !important;
+    width: 100% !important;
+    /* height: 167px; */
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+
+}
+.hubungi h2
+{
+    margin-top: 50px !important;
+    color: #382109;
+    font-weight: 700;
+}
+.wadah-text 
+{
+    background-color: #F8F4E1;
+    height: 177px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+.wadah-text span
+{
+    /* background-color: #DECEBA; */
+    color: #382109;
+    font-weight: 500;
+    font-size: 26px;
+    width: 580px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footerr span
+{
+    color: var(--footer-color);
+    height: 80px;
+
+}
+.jarakk
+{
+    margin-top: 100px !important;
+}
+
+
+
+/* Tambahkan CSS ini ke file style.css atau file CSS yang relevan */
+nav.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #333; /* Sesuaikan dengan warna latar belakang navbar */
+}

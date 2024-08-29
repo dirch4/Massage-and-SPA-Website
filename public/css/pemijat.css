@@ -1,0 +1,45 @@
+#pelayan
+{
+    margin-top: 130px;
+}
+.textPelayan
+{
+
+    color: #ffffff;
+    text-align: center;
+}
+.owners-container {
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* background-color: aqua; */
+}
+
+.owner {
+    margin-top: 60px; /* Margin atas 60px agar konten tidak tertutup oleh header */
+    /* flex: 0 0 15%; Membagi space secara merata */
+    margin: 10px;
+    text-align: center;
+    /* background-color: #f8f9fa; */
+    width: 190px !important;
+    height: auto;
+}
+
+.owner img {
+    width: 50%;
+    border-radius: 50%;
+}
+
+.owner-info {
+
+
+
+    height: 110px;
+    margin-top: 10px;
+    color: #ffffff;
+    width: 100%;
+}
+
+

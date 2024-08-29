@@ -1,0 +1,151 @@
+:root
+{
+    --bg-color:#543310;
+    --cart-color: #382109;
+    --white:#fff;
+    --footer-color:#F8F4E1;
+    --text-color:#DECEBA;
+    --text: #FFFFFF;
+}
+.classNavbar
+{
+    background-color: #ccc !important;
+    color: aqua;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--bg-color) !important;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+.bg-hero{
+    background-image: url(/image/bunga.png);
+    background-size: cover;
+    height: 150vh;
+    width: 100%;
+    background-position: center; 
+}
+
+
+
+.kelas-asli
+{
+    background-color: #F8F4E1;
+}
+.kelas-input-semua
+{
+    margin-top: 10px;
+}
+
+.text-atas
+{
+    /* background-color: #28a745; */
+    height: 18px;
+}
+
+.kelas-input
+{
+    /* background-color: #f4fa39; */
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* tanggal */
+.kelas-input-semua-tanggal
+{
+    margin-top: 78px !important;
+}
+
+/* ALAMAT */
+
+.kelas-semua
+{
+    /* background-color: #218838; */
+    height: 50px;
+    margin-top: 12px;
+
+}
+.text-alamat
+{
+    height: 9px;
+
+}
+
+.kelas-buat-akun
+{
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+.buat-akun
+{
+    background-color: #5C4C4C !important;
+}
+.hero-logo
+{
+    display: flex;
+    justify-content: center;
+    /* padding-top: 20px !important; */
+    margin-top: 30px !important;
+}
+.logo img
+{
+    height: 100px;
+    width: 200px;
+    background: cover !important;
+    margin-top: 160px !important;
+}
+
+.resgistrasi-baru
+{
+    /* background-color: #28a745 !important; */
+    margin-top: 95px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.registration-container {
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 900px;
+    opacity: .6;
+    /* max-width: 400px; */
+}
+.registration-container h2 {
+    margin-bottom: 20px;
+}
+.registration-container input[type="text"],
+.registration-container input[type="date"],
+.registration-container input[type="password"],
+.registration-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.registration-container textarea {
+    resize: vertical;
+    height: 100px;
+}
+.registration-container button {
+    width: 100%;
+    padding: 10px;
+    /* background-color: #28a745; */
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}

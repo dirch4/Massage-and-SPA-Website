@@ -1,0 +1,206 @@
+* {
+    font-family: "Quicksand";
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--bg-color) !important;
+}
+
+:root {
+    --bg-color: #543310;
+    --cart-color: #382109;
+    --white: #fff;
+    --footer-color: #F8F4E1;
+    --text-color: #DECEBA;
+    --text: #FFFFFF;
+}
+
+/* bg contact us */
+.bg-hero {
+    background-image: url(/image/bunga.png);
+    background-size: cover;
+    height: 150vh;
+    width: 100%;
+    background-position: center;
+}
+
+.hero-logo {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px !important;
+    /* background-color: rgb(42, 104, 158); */
+}
+
+.logo img {
+    height: 193px;
+    width: 408px;
+    background: cover;
+    font-size: 50px !important;
+}
+
+/* form */
+/* bg contact us */
+.container-baru {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    padding-top: 50px !important;
+}
+
+.login-container {
+    /* background-color: rgb(38, 189, 197); */
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 34px;
+    width: 517px !important;
+    height: 543px !important;
+    opacity: .6;
+}
+
+.login-container-baru {
+    height: 100% !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    border-radius: 34px;
+}
+
+.login-container input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #382109 !important; */
+    width: 408px;
+    height: 76px;
+    padding: 10px;
+    margin: 10px 0;
+    /* box-shadow: none; */
+    border-radius: 5px;
+}
+
+.ema-il {
+    /* background-color: #3cde2d !important; */
+    height: auto;
+    width: 500px !important;
+    margin-top: 1px;
+    /* justify-content: center; */
+    /* margin-top: 110px; */
+    /* align-items: center; */
+}
+
+.text-mail {
+    /* background-color: #a79c28; */
+    width: 100%;
+    height: 7px !important;
+    padding-left: 50px !important;
+    /* margin-bottom: 10px !important; */
+    /* margin-block-start: 10px !important; */
+}
+
+.box-email {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-email input {
+    background-color: #FFFFFF !important;
+    outline: none;
+    border-top: none !important;
+    border-left: none !important;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.pas-word {
+    /* background-color: #de2d2d; */
+    height: auto;
+    width: 500px !important;
+    margin-top: 10px;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.text-mail h6 {
+    color: white;
+    font-weight: 900 !important;
+}
+
+.text-pasword {
+    /* background-color: #8abb2f !important; */
+    width: 100%;
+    height: 7px;
+    padding-left: 50px;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+
+.text-pasword h6 {
+    color: white;
+    font-weight: 900 !important;
+}
+
+.box-pasword {
+    /* background-color: #26b3cf ; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-pasword input {
+    background-color: rgb(255, 255, 255) !important;
+    font-weight: bold;
+    outline: none;
+    border-top: none !important;
+    border-left: none !important;
+    border-radius: 10px;
+    /* font-weight: 900; */
+    opacity: none !important;
+    stroke-opacity: calc(255, 255, 255);
+}
+
+.login-container button {
+    width: 408px;
+    height: 53px;
+    padding: 10px;
+    background-color: #5C4C4C;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+}
+
+.kelas-login-bawah {
+    /* background-color: #382109; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 16px;
+}
+
+.kelas-login-bawah button {
+    margin-top: 20px !important;
+    color: #FFFFFF;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+.text-buat-akun {
+    /* background-color: #2894a7; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.text-buat-akun span {
+    color: #534747;
+}
+
+.text-buat-akun a {
+    color: #1D1E3F;
+}

@@ -1,0 +1,103 @@
+/* bg contact us */
+
+.bg-hero{
+    background-image: url(/image/bunga.png);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-position: center; 
+}
+
+.hero-logo
+{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px !important;
+    /* background-color: rgb(42, 104, 158); */
+}
+.logo img
+{
+    height: 193px;
+    width: 408px;
+    background: cover;
+    font-size: 100px;
+}
+
+.text-reservasi
+{
+    padding-top: 70px;
+    display: flex;
+    justify-content: center;
+    
+}
+.text-reservasi button
+{
+    border-radius: 7px;
+    width: 299px;
+    height: 73px;
+    font-size: 29px;
+    color: #543310;
+
+}
+
+.layanan
+{
+    margin-top: 30px !important;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+.selamat-datang
+{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    width: auto;
+    height: 100px;
+}
+.datang 
+{
+    /* background-color: #FFFFFF; */
+    width: 990px;
+    height: 100px;
+}
+.datang span
+{
+    display: flex;
+    /* width: 50%; */
+    /* padding-top: 20px; */
+    /* height: 500px; */
+    align-items: center;
+    text-align: justify;
+    color: #FFFFFF;
+    font-size:  23px;
+    /* background-color: blue; */
+}
+
+.suami
+{
+    /* width: 10px; */
+    height: 10px;
+    background-color: aqua !important;
+    display: flex !important;
+    justify-content: space-between !important;
+} 
+.suami-istri 
+{
+    background-color: #FFFFFF;
+    width: 10px;
+}
+.suami-istri img
+{
+    width: 10px;
+}
+.text-suami-istri 
+{
+    background-color: beige;
+    width: 10px;
+    font-size: 10px;
+}
